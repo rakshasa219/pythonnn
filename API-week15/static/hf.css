@@ -8,10 +8,10 @@ body {
   margin-right:     15%;
   text-align:       center;
   border:           solid 30px #fff; 
-  padding:          10px 10px 10px 10px;
+  padding:          140px 0px 130px 130px;
 }
 a {
-  text-decoration:  none; 
+  text-decoration:  blink; 
   font-weight:      600; 
 }
 a:hover {
@@ -21,7 +21,7 @@ a img {
   border:           0;
 }
 h2 {
-  font-size:        150%;
+  font-size:        159%;
 }
 table {
   margin-left:      20px;
@@ -31,7 +31,7 @@ table {
   color:            #357ebd;
 }
 td, th {
-  padding:          12px;
+  padding:          18px;
   text-align:       center;
 }
 .copyright {
@@ -49,25 +49,25 @@ td, th {
 /*** Tables ***/
 table {
 font-size:          1em;
-background-color:   #ffdfdf;
-border:             1px solid #909090;
-color:              #2a2a2a;
+background-color:   ##ffe1ef;
+border:             10px solid #dcdeff;
+color:              #000000;
 padding:            10px 10px 20px;
 border-collapse:    collapse;
 text-align:         center;
 }
 
 td, th {
-border:            solid 1px #000;
+border:            solid 3px #fff;
 }
 
 /*** Inputs ***/
 input[type=text] {
-  font-size:        115%;
-  width:            30em;
+  font-size:        119%;
+  width:            27em;
 }
 input[type=submit] {
-  font-size:        125%;
+  font-size:        150%;
 }
 select {
   font-size:        125%;
