@@ -26,7 +26,7 @@ def geocode1(names):
 @app.route('/search4', methods=['POST'])
 def do_search() -> 'html':
     phone = request.form['phonenumber']
-    title = '这是查询结果:'
+    title = '您的手机号码归属地如下:'
     results = geocode(phone)
     return render_template('results.html',
                             the_title=title,
@@ -37,7 +37,7 @@ def do_search() -> 'html':
 @app.route('/entry')
 def entry_page() -> 'html':
     return render_template('entry.html',
-                           the_title='欢迎使用上午班python手机号归属地查询网站')
+                           the_title='手机号归属地查询网站')
 
 
 if __name__ == '__main__':
