@@ -1,13 +1,13 @@
 body {
   font-family:      微软雅黑,Verdana, Geneva, Arial, sans-serif;
   font-size:        medium;
-  background-color: #e4f3ff;
+  background-color: #cffbff;
   margin-top:       5%;
-  margin-bottom:    5%;
-  margin-left:      10%;
-  margin-right:     10%;
+  margin-bottom:    15%;
+  margin-left:      18%;
+  margin-right:     15%;
   text-align:       center;
-  border:           solid 1px #000; 
+  border:           solid 30px #fff; 
   padding:          10px 10px 10px 10px;
 }
 a {
